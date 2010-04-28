@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android Roulette</string>
+    <string name="welcomeTo">Welcome to</string>
+    <string name="explanation">Just press the "Start" to start a chat with some random stranger!</string>
+    <string name="start">START</string>
+    <string name="send">Send</string>
+    <string name="pleaseWait">Please wait</string>
+    <string name="searchingMate">We are looking for another user to begin the chat</string>
+    <string name="noMateFound">All other users are busy. Please try again</string>
+    <string name="myNickName">You</string>
+    <string name="mateNickName">Mate</string>
+    <string name="endChat">End chat</string>
+    <string name="areYourSure">Sure?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="youCancelled">You have ended the chat. Press "Start" to start another</string>
+    <string name="mateCancelled">Your mate has ended the chat. Press "Start" to start another</string>
+	<string name="welcomeMessage">You can start typing...</string>
+	<string name="mateTyping">Your mate is typing...</string>
+	<string name="important">Important</string>
+	<string name="ok">OK</string>
+</resources>
