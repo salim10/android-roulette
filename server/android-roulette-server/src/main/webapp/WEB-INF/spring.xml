@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:aop="http://www.springframework.org/schema/aop"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:tx="http://www.springframework.org/schema/tx"
+    xmlns:jaxws="http://cxf.apache.org/jaxws"
+    xsi:schemaLocation="
+           http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+           http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd
+           http://cxf.apache.org/core  http://cxf.apache.org/schemas/core.xsd
+           http://cxf.apache.org/jaxws http://cxf.apache.org/schemas/jaxws.xsd">
+
+
+
+    <!-- ******************************************************************* -->
+    <!-- COMPONENT SCANNING                                                  -->
+    <!-- ******************************************************************* -->
+    <!-- Spring will be configured so that component beans are declared and  -->
+    <!-- wired together into the application context by using annotations    -->
+    <!-- (mainly @Component, @Repository and @Service for declaring beans,   -->
+    <!-- and @Autowired for wiring dependencies).                            -->
+    <!-- ******************************************************************* -->    
+    <context:component-scan annotation-config="true" base-package="es.sonxurxo.android.androidroulette" />
+
+	<context:property-placeholder location="classpath:app.properties" />
+	
+	<bean id="application"
+        class="es.sonxurxo.android.androidroulette.server.web.application.AndroidRouletteApplication"
+        p:serverMessage="${serverMessage}"
+        p:timeout="${timeout}">
+	</bean>
+</beans>
