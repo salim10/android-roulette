@@ -1,0 +1,29 @@
+<classpath>
+  <classpathentry kind="src" path="src/test/java" output="target/test-classes" including="**/*.java"/>
+  <classpathentry kind="src" path="src/test/resources" output="target/test-classes" excluding="**/*.java"/>
+  <classpathentry kind="src" path="src/main/java"/>
+  <classpathentry kind="src" path="src/main/resources" excluding="**/*.java"/>
+  <classpathentry kind="output" path="target/classes"/>
+  <classpathentry kind="var" path="M2_REPO/javax/servlet/servlet-api/2.3/servlet-api-2.3.jar" sourcepath="M2_REPO/javax/servlet/servlet-api/2.3/servlet-api-2.3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3.jar" sourcepath="M2_REPO/cglib/cglib-nodep/2.1_3/cglib-nodep-2.1_3-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-beanutils/commons-beanutils/1.8.0/commons-beanutils-1.8.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-collections/commons-collections/3.2.1/commons-collections-3.2.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-lang/commons-lang/2.4/commons-lang-2.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/commons-logging/commons-logging/1.1.1/commons-logging-1.1.1.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/ezmorph/ezmorph/1.0.6/ezmorph-1.0.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/net/sf/json-lib/json-lib/2.3/json-lib-2.3.jar"/>
+  <classpathentry kind="var" path="M2_REPO/log4j/log4j/1.2.13/log4j-1.2.13.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8.jar" sourcepath="M2_REPO/org/slf4j/slf4j-api/1.5.8/slf4j-api-1.5.8-sources.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/slf4j/slf4j-log4j12/1.4.0/slf4j-log4j12-1.4.0.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/springframework/spring/2.5.6/spring-2.5.6.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket/1.4.7/wicket-1.4.7.jar" sourcepath="M2_REPO/org/apache/wicket/wicket/1.4.7/wicket-1.4.7-sources.jar">
+    <attributes>
+      <attribute value="jar:file:/home/sonxurxo/.m2/repository/org/apache/wicket/wicket/1.4.7/wicket-1.4.7-javadoc.jar!/" name="javadoc_location"/>
+    </attributes>
+  </classpathentry>
+  <classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket-extensions/1.3.4/wicket-extensions-1.3.4.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket-ioc/1.3.5/wicket-ioc-1.3.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket-spring/1.3.5/wicket-spring-1.3.5.jar"/>
+  <classpathentry kind="var" path="M2_REPO/org/apache/wicket/wicket-spring-annot/1.3.5/wicket-spring-annot-1.3.5.jar"/>
+  <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+</classpath>
