@@ -50,7 +50,8 @@ import org.json.JSONObject;
  */
 public class HttpHelper {
 
-	private final String SERVER_HOST_IP = "79.148.102.37";
+//	private final String SERVER_HOST_IP = "79.148.102.37";
+	private final String SERVER_HOST_IP = "178.33.42.37";
 	private final String GAME_URL = "android-roulette";
 	private final String FULL_ADDRESS = "http://" + this.SERVER_HOST_IP + 
 //	":" + SERVER_PORT + 
